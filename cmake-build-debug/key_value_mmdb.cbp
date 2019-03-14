@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="key_value_mmdb"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/vory/programing/c/key_value_mmdb/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/vory/programing/c/key_value_mmdb/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/vory/programing/c/key_value_mmdb/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/vory/programing/c/key_value_mmdb/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/vory/programing/c/key_value_mmdb/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/home/vory/programing/c/key_value_mmdb/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/vory/programing/c/key_value_mmdb/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/vory/programing/c/key_value_mmdb/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/vory/programing/c/key_value_mmdb/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/vory/programing/c/key_value_mmdb/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="key_value_mmdb">
+				<Option output="/home/vory/programing/c/key_value_mmdb/cmake-build-debug/key_value_mmdb" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/vory/programing/c/key_value_mmdb/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/vory/programing/c/key_value_mmdb/."/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/8.2.1/../../../../include/c++/8.2.1"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/8.2.1/../../../../include/c++/8.2.1/x86_64-pc-linux-gnu"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/8.2.1/../../../../include/c++/8.2.1/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/8.2.1/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/8.2.1/include-fixed"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/vory/programing/c/key_value_mmdb/cmake-build-debug/Makefile&quot;  VERBOSE=1 key_value_mmdb"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/vory/programing/c/key_value_mmdb/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/vory/programing/c/key_value_mmdb/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/vory/programing/c/key_value_mmdb/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="key_value_mmdb/fast">
+				<Option output="/home/vory/programing/c/key_value_mmdb/cmake-build-debug/key_value_mmdb" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/vory/programing/c/key_value_mmdb/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/vory/programing/c/key_value_mmdb/."/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/8.2.1/../../../../include/c++/8.2.1"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/8.2.1/../../../../include/c++/8.2.1/x86_64-pc-linux-gnu"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/8.2.1/../../../../include/c++/8.2.1/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/8.2.1/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/8.2.1/include-fixed"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/vory/programing/c/key_value_mmdb/cmake-build-debug/Makefile&quot;  VERBOSE=1 key_value_mmdb/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/vory/programing/c/key_value_mmdb/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/vory/programing/c/key_value_mmdb/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/vory/programing/c/key_value_mmdb/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/home/vory/programing/c/key_value_mmdb/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/vory/programing/c/key_value_mmdb/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/vory/programing/c/key_value_mmdb/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/vory/programing/c/key_value_mmdb/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/vory/programing/c/key_value_mmdb/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/vory/programing/c/key_value_mmdb/hash_table.c">
+			<Option target="key_value_mmdb"/>
+		</Unit>
+		<Unit filename="/home/vory/programing/c/key_value_mmdb/hash_table.h">
+			<Option target="key_value_mmdb"/>
+		</Unit>
+		<Unit filename="/home/vory/programing/c/key_value_mmdb/key_value_mmdb.c">
+			<Option target="key_value_mmdb"/>
+		</Unit>
+		<Unit filename="/home/vory/programing/c/key_value_mmdb/ttree.c">
+			<Option target="key_value_mmdb"/>
+		</Unit>
+		<Unit filename="/home/vory/programing/c/key_value_mmdb/ttree.h">
+			<Option target="key_value_mmdb"/>
+		</Unit>
+		<Unit filename="/home/vory/programing/c/key_value_mmdb/ttree_defs.h">
+			<Option target="key_value_mmdb"/>
+		</Unit>
+		<Unit filename="/home/vory/programing/c/key_value_mmdb/ttreebuffer.c">
+			<Option target="key_value_mmdb"/>
+		</Unit>
+		<Unit filename="/home/vory/programing/c/key_value_mmdb/ttreebuffer.h">
+			<Option target="key_value_mmdb"/>
+		</Unit>
+		<Unit filename="/home/vory/programing/c/key_value_mmdb/uthash.h">
+			<Option target="key_value_mmdb"/>
+		</Unit>
+		<Unit filename="/home/vory/programing/c/key_value_mmdb/xlarge.del">
+			<Option target="key_value_mmdb"/>
+		</Unit>
+		<Unit filename="/home/vory/programing/c/key_value_mmdb/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

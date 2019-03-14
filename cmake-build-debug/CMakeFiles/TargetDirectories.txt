@@ -1,0 +1,3 @@
+/home/vory/programing/c/key_value_mmdb/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/vory/programing/c/key_value_mmdb/cmake-build-debug/CMakeFiles/key_value_mmdb.dir
+/home/vory/programing/c/key_value_mmdb/cmake-build-debug/CMakeFiles/edit_cache.dir

@@ -43,8 +43,13 @@ int main(int argc, char *argv[]) {
     par2 = malloc(50 * sizeof(char));
     par3 = malloc(50 * sizeof(char));
     char *printid;
+    char * printidstring;
     char *printname;
     char *print_very_long;
+    print_very_long = malloc(num_keys*1000);
+    printidstring = malloc(500);
+    printname= malloc(500);
+    printid= malloc(500);
 
     all_items = calloc(num_keys, sizeof(all_items));
     file_line = malloc(1000 * sizeof(char));
@@ -231,10 +236,12 @@ printf("PLEASE INPUT HERE:");
                     memset(printname, 0, 500 * sizeof(char));
                     strcpy(printname, s->name);
 
-                    strcpy(printid, (char *) &(s->user_id));
+                    sprintf(printidstring,"%ld",s->user_id);
+                    strcpy(printid, printidstring);
                     strcat(print_very_long, printid);;
                     strcat(print_very_long, printname);
                 }
+                printf("%s",print_very_long);
 
                 break;
             default:
